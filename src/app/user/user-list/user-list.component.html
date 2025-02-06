@@ -1,0 +1,5 @@
+<ul class="users">
+  @for (user of users; track user.id) {
+    <li class="users__item" #user>{{user.name}}</li>
+  }
+</ul>
